@@ -1,0 +1,85 @@
+.addClass__backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75)
+}
+
+.addClassCard {
+  position: fixed;
+  top: 30vh;
+  left: 32%;
+  width: 35%;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.addClass__input {
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.addClass__input label {
+  font-family: 'roboto';
+  font-size: 18px;
+  display: block;
+  color: #5b5b5b;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.addClass__input input {
+  font: inherit;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  background-color: #f0f2f5;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.addClass__input input:focus {
+  outline: none;
+  border-color: #4f005f;
+}
+
+.rows_columns {
+  display: flex;
+  align-items: baseline;
+}
+
+.rows_columns input {
+  width: 6rem;
+  width: 6rem;
+  margin: 0 1rem 0 1rem;
+}
+
+.rows_columns__header {
+  font-family: 'roboto';
+  font-size: 18px;
+  margin-top: 2rem;
+  color: #5b5b5b;
+  font-weight: 400;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: 'roboto';
+  font-weight: lighter;
+  color: #a6a6a6;
+}
+
+.addClassForm__btn_cancel {
+  background-color: #de7347;
+}
+
+.addClassFrom__buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
